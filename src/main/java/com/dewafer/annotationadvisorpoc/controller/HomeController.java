@@ -22,4 +22,10 @@ public class HomeController {
         return this.businessServiceImpl.getCurrentTime() + " " + this.nonInterfaceService.helloWorld();
     }
 
+    @GetMapping("/exception")
+    public String throwException() {
+        this.nonInterfaceService.tryMe();
+        return "no exception";
+    }
+    
 }
