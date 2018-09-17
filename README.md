@@ -1,4 +1,4 @@
-WIP
+Spring Annotation Advisor Example
 ------
 
-Working in progress
+This example reminds me how to do Spring AOP and mimic a `@Async` annotation.
